@@ -20,7 +20,8 @@ Transform your skybox into a vibrant, dynamic starfield with this advanced proce
 2. In your URP **Renderer Data asset**, add a **Full Screen Pass Renderer Feature**.
 3. As the **Material**, choose the one that uses the shader:  
    **`"Hidden/FullscreenProceduralStars"`** (the default material is named `"Stars"`).
-4. The starfield will now render automatically on top of your scene where the sky is visible.
+4. Increase the **Far Clipping Plane** of your camera to **10001** (this is one meter after were the stars render
+5. The starfield will now render automatically on top of your scene where the sky is visible.
 
 ---
 
