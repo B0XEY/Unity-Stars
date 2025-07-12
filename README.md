@@ -16,9 +16,11 @@ Transform your skybox into a vibrant, dynamic starfield with this advanced proce
 
 ## 🎮 Quick Start
 
-1. Create a material using the `"Hidden/FullscreenProceduralStars"` shader
-2. Adjust the material properties in the inspector
-3. Add to your URP renderer using a custom render feature
+1. **Import the Unity package** into your project.
+2. In your URP **Renderer Data asset**, add a **Full Screen Pass Renderer Feature**.
+3. As the **Material**, choose the one that uses the shader:  
+   **`"Hidden/FullscreenProceduralStars"`** (the default material is named `"Stars"`).
+4. The starfield will now render automatically on top of your scene where the sky is visible.
 
 ---
 
